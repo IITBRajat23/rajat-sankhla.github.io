@@ -1,0 +1,340 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header {
+    background: url('EVandPV.png') no-repeat center center/cover;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.header-content {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text visibility */
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.header-content h1 {
+    font-size: 3rem; /* Big font size for name */
+    margin: 0;
+}
+
+.header-content p {
+    font-size: 1.5rem; /* Relatively smaller font size for title */
+    margin: 0.5rem 0 0 0;
+}
+
+main {
+    padding: 2rem 0;
+    margin-top: 4rem; /* Offset for fixed nav */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-image {
+    flex: 1;
+    max-width: 200px; /* Adjust as needed */
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.about-text {
+    flex: 2;
+    text-align: justify; /* Justify text */
+    line-height: 1.5; /* Line spacing */
+}
+
+p, ul, ol {
+    text-align: justify; /* Justify text for all <p>, <ul>, and <ol> elements */
+}
+
+ul, ol {
+    padding-left: 20px; /* Add some padding to bullet points */
+}
+
+li {
+    text-align: justify; /* Justify text for all <li> elements */
+}
+
+.timeline {
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 250px; /* Adjust left to change spacing from the time period */
+    width: 2px;
+    background: black; /* Left dashed line */
+    z-index: 0;
+    border-right: 2px dashed black;
+}
+
+.timeline:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 180px; /* Adjust left to change spacing from the time period */
+    width: 2px;
+    background: black; /* Right dashed line */
+    z-index: 0;
+    border-left: 2px dashed black;
+}
+
+.timeline-symbol-container {
+    position: absolute;
+    left: 180px; /* Adjust left to change spacing from the time period */
+    top: 0;
+    z-index: 1;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timeline-symbol {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+    object-fit: contain;
+}
+
+.timeline-entry {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    position: relative;
+    padding-left: 300px; /* Adjust padding-left to change spacing from the time period */
+}
+
+.timeline-time {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    position: absolute;
+    left: 0; /* Adjust left to change spacing from the time period */
+    top: 0;
+    width: 170px; /* Adjust width to ensure full visibility of the time period */
+    text-align: left; /* Align text to the left */
+}
+
+.timeline-content {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+    z-index: 1;
+    width: calc(100% - 200px); /* Adjust width to reduce length of writing area */
+}
+
+.education-entry {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    position: relative; /* For absolute positioning of the duration */
+}
+
+.education-entry h3 {
+    margin: 0;
+    display: flex;
+    justify-content: space-between; /* Space out title and duration */
+    align-items: center; /* Center align vertically */
+}
+
+.education-entry .duration {
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.education-entry h4 {
+    margin: 0.5rem 0 0 0;
+}
+
+section {
+    margin-bottom: 2rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.center-heading {
+    text-align: center; /* Center-align the text */
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #d3d3d3; /* Light grey color */
+    color: #000;
+    padding: 1rem 0;
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-links {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.social-links a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Default size for all project images */
+.project img.project-image {
+    width: 300px; /* Default width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+/* Specific sizes for individual project images */
+#project1-image {
+    width: 300px; /* Specific width for project1 */
+}
+
+#project2-image {
+    width: 300px; /* Specific width for project2 */
+}
+
+#project3-image {
+    width: 300px; /* Specific width for project3 */
+}
+
+.project-details {
+    flex-grow: 1;
+    text-align: center; /* Center-align the text */
+}
+
+.project-details h3 {
+    margin-top: 0;
+}
+
+.project-details p {
+    text-align: center; /* Center-align the text */
+}
+
+.project-details a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #1E90FF; /* Link color */
+    text-decoration: none;
+    text-align: center; /* Center-align the text */
+}
+
+.project-details a:hover {
+    text-decoration: underline;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skill {
+    background-color: #d3d3d3; /* Light grey color */
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    animation: scatter 2s ease-in-out;
+    display: inline-block; /* Shrink to fit text */
+}
+
+@keyframes scatter {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label, form input, form textarea, form button {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 1rem;
+}

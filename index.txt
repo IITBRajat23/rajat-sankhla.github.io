@@ -144,7 +144,7 @@
                     <div class="project-details">
                         <h3>Compact SiC based Automotive Inverter for future 4-wheeler BEVs</h3>
                         <p>Designed a high-power-density, SiC-based 75kW automotive inverter with an 800V DC bus architecture. Investigated 2-level and 3-level voltage source topologies to mitigate DC link capacitor ripple current. Conducted comparative analysis of various configurations, evaluating ripple current, device count, and efficiency. Identified a suitable topology through simulations, followed by hardware design and performance validation. Provided a systematic approach to efficient inverter topology selection, advancing high-power-density automotive inverters.</p>
-                        <a href="project-link1">View Project</a>
+                        <a href="https://drive.google.com/drive/folders/1Ke83TvIcZmSO3sIsiMo8BBp8PN87sqg8?usp=sharing">View Project</a>
                     </div>
                 </div>
                 <div class="project">
@@ -152,7 +152,7 @@
                     <div class="project-details">
                         <h3>Challenges and Potential solutions associated with fast switching SiC devices </h3>
                         <p>Conducted a literature review on the challenges and potential solutions associated with fast switching of SiC devices. Investigated issues like high dv/dt and di/dt, which complicate their adoption in power electronic converters. Evaluated various configurations and proposed solutions to mitigate these challenges, enhancing the efficiency and reliability of SiC-based systems. The research provided insights into the superior properties of SiC, such as higher drift velocity and critical electrical fields, leading to better performance in high-power density applications.</p>
-                        <a href="project-link2">View Project</a>
+                        <a href="https://docs.google.com/presentation/d/1EVoo2DbsDue4S21HcB28ZKjUQYSonZ6L/edit?usp=sharing&ouid=102809334911571115120&rtpof=true&sd=true">View Project</a>
                     </div>
                 </div>
                 <div class="project">
@@ -160,7 +160,7 @@
                     <div class="project-details">
                         <h3>Design and Simulation of a 7 kW DC Drive for Electric Vehicles</h3>
                         <p>Analyzed and designed a 2-stage 7 kW DC drive for a separately excited DC motor rated at 350V. Regulated the DC bus voltage and implemented closed-loop control for current sharing by battery packs based on their State of Charge (SoC). Addressed challenges in paralleling DC-DC converters, such as uneven current sharing and poor transient response. Conducted system simulations in PSCAD to accommodate dynamically changing power and torque requirements, enhancing the efficiency and reliability of electric vehicle battery systems.</p>
-                        <a href="DC-Motor_drive.pdf">View Project</a>
+                        <a href="https://drive.google.com/file/d/139mNpi4bql07P-K-4jCkusdyvCYCEhc6/view?usp=sharing">View Project</a>
                     </div>
                 </div>
                 <div class="project">
@@ -168,7 +168,7 @@
                     <div class="project-details">
                         <h3>Real and Reactive Power Control of Solar PV Fed Grid-Tied 3 Phase VSI </h3>
                         <p>Selected the DC bus voltage based on the required line voltage of the grid and modulation index. Designed a Proportional-Resonant (PR) compensator and controlled real and reactive power in the αβ0 frame using MATLAB Simulink. Designed a phase-locked loop (PLL) compensator for achieving decoupled real and reactive power control in the dq0 frame</p>
-                        <a href="project-link4">View Project</a>
+                        <a href="https://drive.google.com/file/d/15n8tnfdTT1CYueBHNEQAOIrPvthp-OaV/view?usp=sharing">View Project</a>
                     </div>
                 </div>
                 <div class="project">
@@ -176,7 +176,7 @@
                     <div class="project-details">
                         <h3>Design and Analysis of a 5kW Push-Pull DC-DC Converter</h3>
                         <p>Analyzed and designed a PCB for a 5kW push-pull converter with 400V input and 600V output. Simulated and analyzed the converter’s performance using LTSpice with selected SPICE models of MOSFETs and diodes. Implemented open-loop control of output voltage using the ePWM module for a fixed load. Focused on achieving bidirectional excitation of the transformer to enhance efficiency and reliability. Demonstrated the converter's advantages such as reduced size and weight, making it suitable for auxiliary applications in automotive systems.</p>
-                        <a href="project-link5">View Project</a>
+                        <a href="https://drive.google.com/file/d/1oADKWcrq1hTDIS0ozQIOqgjQBNcTQcJP/view?usp=sharing">View Project</a>
                     </div>
                 </div>
                 <div class="project">
@@ -184,7 +184,7 @@
                     <div class="project-details">
                         <h3>Foil Thickness Design & Fidelity Analysis of Core Loss Estimation Techniques for high frequency inductors</h3>
                         <p>Optimized foil thickness design for high frequency inductors using Dowell’s equations to minimize copper losses in high-frequency DC-DC converters. Assessed core loss estimation methods against ANSYS Maxwell simulations, validating theoretical calculations. Conducted detailed simulations using MATLAB and Ansys Maxwell to enhance the efficiency of magnetic components.</p>
-                        <a href="project-link6">View Project</a>
+                        <a href="https://drive.google.com/file/d/1IJYBXb72XGmMK0xSXFO_N6ulTh9zwQK-/view?usp=sharing">View Project</a>
                     </div>
                 </div>
                 <div class="project">
@@ -192,7 +192,7 @@
                     <div class="project-details">
                         <h3>IoT-enabled Smart Energy Monitoring System with Appliance Control Functionality</h3>
                         <p>Designed a 98% accurate, low-cost IoT-based Smart Energy Monitoring System with Appliance Control utilizing Blynk protocol to communicate data over Wi-Fi. Developed and deployed firmware logic on Raspberry Pi Pico W for auto-tripping of the load in under-voltage and over-voltage conditions. Created an interactive GUI mobile app with a dashboard to monitor dynamic energy usage, billing, and remaining quota of units. Implemented features like voltage fluctuation protection, auto-resumption of data flow, and continuous energy measurement without WiFi, using Raspberry Pi Pico W and various sensors.</p>
-                        <a href="project-link7">View Project</a>
+                        <a href="https://drive.google.com/file/d/1vFXX98V9Ai9JQLdTpQM_OmHl_lgDC6ps/view?usp=sharing">View Project</a>
                     </div>
                 </div>
             </div>

@@ -112,7 +112,7 @@
             <div class="container">
                 <h2 class="center-heading">Education</h2>
                 <div class="education-entry">
-                    <h3>IIT Bombay <span class="duration">2018-2020</span></h3>
+                    <h3>IIT Bombay <span class="duration">2021-2024</span></h3>
                     <h4>Master of Technology in Power Electronics and Power Systems</h4>
                     <p>CPI - 9.56<br><br><u>Semester 6 (Masters Thesis Project Stage II)(SPI - 10)</u><br><br>Designed modular PCBs for proposed 800 V SiC based 6-phase dual traction inverter using ALTIUM professional designer. Tested the inverter and performed experimentations to demonstrate the modulation technique for DC-link capacitor and common mode current reduction.
                         <br><br><u>Semester 5 (Masters Thesis Project Stage I)(SPI - 10)</u><br><br>Performed thorough literature survey of inverter topologies existing in the research papers and determined the traction inverter topology suitable for automotive traction inverters for the purpose of making the power-train compact and reduce common mode current.<br><br>
